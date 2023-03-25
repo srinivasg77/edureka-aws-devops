@@ -1,9 +1,13 @@
 
 # Installing the CodeDeploy agent on EC2
+
 ```
+#!/bin/bash
 sudo yum update -y
-sudo yum install -y ruby wget
-wget https://aws-codedeploy-eu-west-1.s3.eu-west-1.amazonaws.com/latest/install
+sudo yum install -y ruby
+sudo yum install -y wget
+cd /home/ec2-user
+wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
 chmod +x ./install
 sudo ./install auto
 sudo service codedeploy-agent status
