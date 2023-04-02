@@ -1,0 +1,5 @@
+custom chef recipee
+
+type: HTTP Archive
+
+https://s3.amazonaws.com/opsworks-demo-assets/opsworks-linux-demo-cookbooks-nodejs.tar.gz
