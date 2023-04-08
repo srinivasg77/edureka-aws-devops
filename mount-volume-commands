@@ -10,3 +10,12 @@
    10  ls -l
    11  df -h
    12  history
+   
+   13  umount /edureka 
+   14  cd /
+   15  umount /edureka 
+   16  df -h
+   17  lsblk
+   18  clear
+   19  lsblk
+   20  history
