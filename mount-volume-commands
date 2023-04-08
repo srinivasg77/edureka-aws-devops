@@ -1,0 +1,12 @@
+1  fdisk -l
+    2  clear
+    3  fdisk -l
+    4  mkfs.ext4 /dev/xvdf
+    5  mkdir /edureka
+    6  mount /dev/xvdf /edureka/
+    7  df -h
+    8  cd /edureka/
+    9  clear
+   10  ls -l
+   11  df -h
+   12  history
