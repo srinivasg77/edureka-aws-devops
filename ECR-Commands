@@ -1,0 +1,31 @@
+1  clear
+    2  apt update -y
+    3  clear
+    4  apt install docker.io -y
+    5  docker version
+    6  docker images
+    7  ls -l
+    8  mkdir project1
+    9  cd project1/
+   10  vi Dockerfile
+   11  ls -l
+   12  vi index.html
+   13  ls -l
+   14  docker build . -t nginx1
+   15  docker images
+   16  aws version
+   17  apt install awscli -y
+   18  aws version
+   19  aws --version
+   20  aws configure
+   21  clear
+   22  docker images
+   23  docker tag nginx1 849119836399.dkr.ecr.ca-central-1.amazonaws.com/edureka-devops-repo
+   24  aws ecr get-login --no-include-email
+   
+   Use the output of the lat command --> 25  docker login -u AWS -p <token>
+   
+   26  docker push 849119836399.dkr.ecr.ca-central-1.amazonaws.com/edureka-devops-repo
+   
+   
+   
